@@ -16,10 +16,7 @@ class Game : KtxApplicationAdapter {
   private lateinit var bitmapFont: BitmapFont
 
   var posX = WIDTH / 2 - 30f
-  var speedX = 10
-
   var posY = HEIGHT / 2 - 30f
-  var speedY = 10
 
   override fun create() {
     shapeRenderer = ShapeRenderer()
